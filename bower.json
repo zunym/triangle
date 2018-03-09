@@ -1,0 +1,24 @@
+{
+  "name": "webcoder_project",
+  "description": "Initial Web Dev",
+  "main": "client/app/app.js",
+  "authors": [
+    "Yin Mon Zun"
+  ],
+  "license": "ISC",
+  "homepage": "\"\"",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "angular": "^1.6.9",
+    "font-awesome": "^5.0.8",
+    "bootstrap": "^4.0.0"
+  }
+}
