@@ -73,7 +73,7 @@ jQuery(function($) {'use strict';
 
       success: function(){
         console.log('form submitted.');  
-        alert('Thank you for subcribe us. We will keep in touch you.');
+        alert('Thank you for your registeration. We will send our confirmation email and meet you there.');
       }
     });
     return false;

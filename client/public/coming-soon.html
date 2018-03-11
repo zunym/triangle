@@ -23,24 +23,46 @@
 </head><!--/head-->
 
 <body>
+     <!-- Top Navigation bar -->
+    <nav class="navbarlogo fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="https://www.ibm.com/ibm/sg/en/" target="_blank">
+            <img src="assets/images/ibm_stripblack.png" height="25px" alt="">
+        </a>
+    </nav>
+       
     <div class="logo-image">                                
        <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""> </a> 
     </div>
+
+        <section id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h2><i class="fa fa-envelope-o"></i> REGISTERATION TO OUR EVENT</h2>
+                            <p>Quis filet mignon proident, laboris venison tri-tip commodo brisket aute ut. Tail salami pork belly, flank ullamco bacon bresaola do beef<br /> laboris venison tri-tip.</p>
+                        </div>
+                        <div class="col-sm-6 newsletter">
+                            <!-- </form> -->
+                            <form id="form_subcribe" name="contact-form" action="https://script.google.com/macros/s/AKfycbzXwEaN6UkMR0IyPANTZtR_5KOWQyMpdX9r7X-eE95w9WE6nyE/exec" method="post">
+
+                                <div class="form-group">
+                                        <p>Don't worry we will not use your email for spam</p>
+                                        <input type="email" name="SUBCRIBE" id="subcribe-id" placeholder="Your Email" class="form-control" required>
+                                        <input type="submit" name="submit" class="btn btn-submit" value="Register">
+                                </div>
+                            </form>
+                        </div>    
+                    </div>
+                </div>     
+            </div>
+        </div> 
+    </section>
+
      <section id="coming-soon">        
          <div class="container">
             <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">                    
-                    <div class="text-center coming-content">
-                        <h1>UNDER CONSTRUCTION</h1>
-                        <p>We have been spending long hours in order to launch our new website. 
-                            We will offer freebies, a brand new blog and featured content of our latest work. Join our mailing list or follow us on<br /> Facebook or Twitter to stay up to date.</p>                           
-                        <div class="social-link">
-                            <span><a href="#"><i class="fa fa-facebook"></i></a></span>
-                            <span><a href="#"><i class="fa fa-twitter"></i></a></span>
-                            <span><a href="#"><i class="fa fa-google-plus"></i></a></span>
-                        </div>
-                    </div>                    
-                </div>
                 <div class="col-sm-12">
                     <div class="time-count">
                         <ul id="countdown">
@@ -63,33 +85,20 @@
                         </ul>   
                     </div>
                 </div>
+                <div class="col-sm-8 col-sm-offset-2">                    
+                    <div class="text-center coming-content">
+                        <h1>UNDER CONSTRUCTION</h1>
+                        <p>We have been spending long hours in order to launch our new website. 
+                            We will offer freebies, a brand new blog and featured content of our latest work. Join our mailing list or follow us on<br /> Facebook or Twitter to stay up to date.</p>                           
+                        <div class="social-link">
+                            <span><a href="#"><i class="fa fa-facebook"></i></a></span>
+                            <span><a href="#"><i class="fa fa-twitter"></i></a></span>
+                            <span><a href="#"><i class="fa fa-google-plus"></i></a></span>
+                        </div>
+                    </div>                    
+                </div>                
             </div>
         </div>       
-    </section>
-    <section id="subscribe">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h2><i class="fa fa-envelope-o"></i> SUBSCRIBE TO OUR NEWSLETTER</h2>
-                            <p>Quis filet mignon proident, laboris venison tri-tip commodo brisket aute ut. Tail salami pork belly, flank ullamco bacon bresaola do beef<br /> laboris venison tri-tip.</p>
-                        </div>
-                        <div class="col-sm-6 newsletter">
-                            <!-- <form id="newsletter"> -->
-                            <form id="form_subcribe" name="contact-form" action="https://script.google.com/macros/s/AKfycbzXwEaN6UkMR0IyPANTZtR_5KOWQyMpdX9r7X-eE95w9WE6nyE/exec" method="post">
-                                <p>Don't worry we will not use your email for spam</p>
-                                <input class="form-control" type="email" name="SUBCRIBE"  value=""  placeholder="Enter Your email">
-                            
-                                <!-- <i type="submit" class="fa fa-check"></i> -->
-                                <input type="submit" name="submit" class="btn btn-submit" value="Submit">
-                            </form>
-                            
-                        </div>    
-                    </div>
-                </div>     
-            </div>
-        </div> 
     </section>
 
     <section id="coming-soon-footer" class="container">
@@ -110,7 +119,7 @@
     <script type="text/javascript">
             //Countdown js
          $("#countdown").countdown({
-                date: "10 march 2015 12:00:00",
+                date: "18 march 2018 12:00:00",
                 format: "on"
             },      
             function() {
