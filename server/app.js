@@ -34,7 +34,7 @@ var path = require("path");          // path helper functions; working with file
 
 // ===========================  CONSTANTS =========================
 // Define Routes load contents and assign to constant
-const node_port = process.env.PORT || parseInt(process.argv[2]) || parseInt(process.env.APP_PORT) || 3500;
+const node_port = process.env.PORT || parseInt(process.argv[2]) || parseInt(process.env.APP_PORT) || 3002;
 const client_dir = path.join(__dirname, "/../client");
 const assets_dir = path.join(client_dir, "/assets");
 const application_url = 'point.sg.ibm.com';
