@@ -103,7 +103,7 @@
                     <div class="action">
                         <div class="col-sm-12">
                             <h1 class="title">Contact US</h1>
-                            <p>Stay close</p>
+                            <!-- <p>Stay close</p> -->
                         </div>                        
                     </div>
                 </div>
@@ -114,21 +114,26 @@
 
     <section id="map-section">
         <div class="container">
-            <div id="gmap"></div>
-            <div class="contact-info">
+            <!-- <div id="gmap"></div> -->
+                
+                <!-- Embed Map -->
+                <div class="embed-responsive embed-responsive-4by3" style="box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 1);" >
+                    <iframe src="https://goo.gl/kBckE1" ></iframe>
+                </div><br>
+
+            <div class="contact-info" style="box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 1);" >
                 <h2>Contacts</h2>
                 <address>
-                E-mail: <a href="mailto:someone@example.com">email@email.com</a> <br> 
-                Phone: +1 (123) 456 7890 <br> 
-                Fax: +1 (123) 456 7891 <br> 
-                </address>
+                        E-mail: <a href="mailto:ezun00085@gmail.com">triangle@email.com</a> <br> 
+                        Phone:  (65) 6789 8821 <br> 
+                        Fax:  (65) 6778 1731 <br>
+                </address>               
 
                 <h2>Address</h2>
                 <address>
-                Unit C2, St.Vincent's Trading Est., <br> 
-                Feeder Road, <br> 
-                Bristol, BS2 0UY <br> 
-                United Kingdom <br> 
+                        6 Tampines Industrial Ave 5, <br> 
+                        Singapore, <br> 
+                        528760 <br> 
                 </address>
             </div>
         </div>
@@ -142,7 +147,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="testimonial bottom">
-                        <h2>Testimonial</h2>
+                        <h2>Resources</h2>
                         <div class="media">
                             <div class="pull-left">
                                 <a href="#"><img src="images/home/profile1.png" alt=""></a>
@@ -167,33 +172,42 @@
                     <div class="contact-info bottom">
                         <h2>Contacts</h2>
                         <address>
-                        E-mail: <a href="mailto:someone@example.com">email@email.com</a> <br> 
-                        Phone: +1 (123) 456 7890 <br> 
-                        Fax: +1 (123) 456 7891 <br> 
+                        E-mail: <a href="mailto:ezun00085@gmail.com">triangle@email.com</a> <br> 
+                        Phone:  (65) 6789 8821 <br> 
+                        Fax:  (65) 6778 1731 <br> 
                         </address>
 
                         <h2>Address</h2>
                         <address>
-                        Unit C2, St.Vincent's Trading Est., <br> 
-                        Feeder Road, <br> 
-                        Bristol, BS2 0UY <br> 
-                        United Kingdom <br> 
+                        6 Tampines Industrial Ave 5, <br> 
+                        Singapore, <br> 
+                        528760 <br> 
                         </address>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <div class="contact-form bottom">
                         <h2>Send a message</h2>
-                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+
+                        <!-- Form Registration -->
+                        <form id="form" name="contact-form" action="https://script.google.com/macros/s/AKfycbzXwEaN6UkMR0IyPANTZtR_5KOWQyMpdX9r7X-eE95w9WE6nyE/exec" method="post">
+                        
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" required="required" placeholder="Name">
+                                <input class="form-control" type="text" name="NAME" id="name_id" placeholder="Your Name"><br>
                             </div>
+
                             <div class="form-group">
-                                <input type="email" name="email" class="form-control" required="required" placeholder="Email Id">
+                                <input type="email" name="EMAIL" id="email-id" placeholder="Your Email" class="form-control" required>
                             </div>
+
                             <div class="form-group">
-                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
-                            </div>                        
+                                <input type="text" name="CONTACT" id="phone-id" placeholder="Your Phone Number" class="form-control" required>
+                            </div>
+
+                            <div class="form-group">
+                                 <textarea name="MESSAGE" id="message-id" type="textarea" placeholder="Your Text Here" class="form-control"></textarea>                               
+                            </div>  
+
                             <div class="form-group">
                                 <input type="submit" name="submit" class="btn btn-submit" value="Submit">
                             </div>
@@ -202,8 +216,8 @@
                 </div>
                 <div class="col-sm-12">
                     <div class="copyright-text text-center">
-                        <p>&copy; Your Company 2014. All Rights Reserved.</p>
-                        <p>Designed by <a target="_blank" href="http://www.themeum.com">Themeum</a></p>
+                        <p>&copy; triangle.mybluemix.net</p>
+                        <p>Designed by <a target="_blank" href="http://triangle.mybluemix.net">Triangle</a></p>
                     </div>
                 </div>
             </div>

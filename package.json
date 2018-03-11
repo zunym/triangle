@@ -4,7 +4,9 @@
   "description": "Initial Web Dev",
   "main": "server/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install",
+    "start": "node server/app.js"
   },
   "author": "Yin Mon Zun",
   "license": "ISC",
